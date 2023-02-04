@@ -1,0 +1,5 @@
+package com.mycompany.product.service;
+
+public interface PropertyService {
+
+}

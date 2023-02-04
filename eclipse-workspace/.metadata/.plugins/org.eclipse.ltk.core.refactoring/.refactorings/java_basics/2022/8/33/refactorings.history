@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;java_basics&apos; to &apos;java_arrays&apos;&#x0D;&#x0A;- Original project: &apos;java_basics&apos;&#x0D;&#x0A;- Original element: &apos;java_basics/src/java_basics&apos;&#x0D;&#x0A;- Renamed element: &apos;java_basics/src/java_arrays&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;java_basics&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;java_basics" name="java_arrays" qualified="false" references="true" stamp="1660404070417" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+package com.mycompany.product.impl;
+
+import com.mycompany.product.DTO.PropertyDTO;
+import com.mycompany.product.service.PropertyService;
+
+public class PropertyServiceImpl implements PropertyService {
+
+	@Override
+	public PropertyDTO saveProperty() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,56 @@
+package ClassesAndConstructors;
+
+public class Animal {
+	
+	private int legs;
+	private int brain;
+	private int eyes ;
+	private String name;
+	private String type;
+	
+	public void move(int speed)
+	{
+		System.out.println(" animal is moving is at" +speed);
+	}
+	
+	public void eat()
+	{
+		System.out.println(" animal is eating");
+	}
+	
+	public void sleep()
+	{
+		System.out.println(" animal is sleeping");
+	}
+
+	public int getLegs() {
+		return legs;
+	}
+
+	public int getBrain() {
+		return brain;
+	}
+
+	public int getEyes() {
+		return eyes;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public Animal(int legs, int brain, int eyes, String name, String type) {
+		super();
+		this.legs = legs;
+		this.brain = brain;
+		this.eyes = eyes;
+		this.name = name;
+		this.type = type;
+	}
+	
+
+}

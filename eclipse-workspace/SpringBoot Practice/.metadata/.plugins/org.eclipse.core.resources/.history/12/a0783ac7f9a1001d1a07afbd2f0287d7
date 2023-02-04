@@ -1,0 +1,48 @@
+package com.mycompany.product.DTO;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Component
+public class ProductCalculator {
+	private Integer a;
+	private Integer b;
+	
+	
+	public ProductCalculator(Integer a, Integer b) {
+		super();
+		this.a = a;
+		this.b = b;
+	}
+
+
+	@Override
+	public String toString() {
+		return "ProductCalculator [a=" + a + ", b=" + b + "]";
+	}
+
+
+	public Integer getA() {
+		return a;
+	}
+
+
+	public void setA(Integer a) {
+		this.a = a;
+	}
+
+
+	public Integer getB() {
+		return b;
+	}
+
+
+	public void setB(Integer b) {
+		this.b = b;
+	}
+	
+}

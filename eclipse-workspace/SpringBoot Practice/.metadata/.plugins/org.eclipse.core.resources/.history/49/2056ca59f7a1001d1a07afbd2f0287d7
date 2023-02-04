@@ -1,0 +1,39 @@
+package com.mycompany.product.Controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController  //to make a Java POJO class RESTFUL 
+//@RequestMapping("/product") // used to map a java class 
+public class ProductController {
+	
+	
+	//http://localhost:8080/product/simple
+	@GetMapping("/simple")
+	public Integer simpleSum() {
+		return 5+3;
+	}
+	
+	//http://localhost:8080/product/sum?a=5&b=3  using @RequestParam
+	@GetMapping("/sum")
+	public Integer sum(@RequestParam ("a") int a , @RequestParam ("b")int b) {
+		return a+b;
+	}
+	
+	//http://localhost:8080/product/pathSum/15/14    using @PathVariable
+	@GetMapping("/pathSum/{a}/{b}")
+	public Integer pathSum(@PathVariable ("a")int a, @PathVariable("b")int b) {
+		return a+b;
+	}
+	
+	//												using both @PathVariable and @RequestParam
+	@GetMapping("/comboSub/{a}")             
+	public Integer comboSub(@PathVariable ("a")int a, @RequestParam("b")int b) {
+		return a-b;
+	}
+	
+}

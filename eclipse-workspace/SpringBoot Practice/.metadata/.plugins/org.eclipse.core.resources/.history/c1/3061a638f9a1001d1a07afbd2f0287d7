@@ -1,0 +1,11 @@
+package com.mycompany.product.DTO;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class ProductCalculator {
+	private Integer a;
+	private Integer b;
+}

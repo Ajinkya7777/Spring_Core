@@ -1,0 +1,10 @@
+package ClassesAndConstructors;
+
+public class Dog extends Animal {
+
+	public Dog(int legs, int brain, int eyes, String name, String type) {
+		super(legs, 1, eyes, name, type);
+		
+	}
+
+}

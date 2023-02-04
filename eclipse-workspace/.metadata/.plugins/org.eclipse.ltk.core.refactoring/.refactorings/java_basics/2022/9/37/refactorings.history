@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;java_arrays.Tcs.java&apos; to &apos;Consecutive_Elements_Max.java&apos;&#x0D;&#x0A;- Original project: &apos;java_basics&apos;&#x0D;&#x0A;- Original element: &apos;java_arrays.Tcs.java&apos;&#x0D;&#x0A;- Renamed element: &apos;java_arrays.Consecutive_Elements_Max.java&apos;" description="Rename compilation unit &apos;Tcs.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;java_arrays{Tcs.java" name="Consecutive_Elements_Max.java" references="false" stamp="1662353924348" version="1.0"/>
+</session>

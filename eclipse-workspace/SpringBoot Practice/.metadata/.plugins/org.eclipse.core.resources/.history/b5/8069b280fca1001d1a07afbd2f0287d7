@@ -1,0 +1,5 @@
+package com.mycompany.product.DTO;
+
+public class PropertyDTO {
+
+}

@@ -1,0 +1,17 @@
+package ClassesAndConstructors;
+
+public class Cow extends Animal {
+	private int legs;
+	private int tail;
+	private int eyes;
+	private String color;
+
+	public Cow(String name,int weight, int size, boolean vegan, int legs, int tail, int eyes,	String color) {
+		super(name, 1, 1, weight, size, vegan);
+		this.legs = legs;
+		this.tail = tail;
+		this.eyes = eyes;
+		this.color = color;
+	}
+
+}

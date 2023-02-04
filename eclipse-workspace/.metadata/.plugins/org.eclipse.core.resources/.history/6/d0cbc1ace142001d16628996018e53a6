@@ -1,0 +1,11 @@
+package ClassesAndConstructors;
+
+public class Cow extends Animal{
+
+	public Cow(String name, int brain, int body, int weight, int size, boolean vegan) {
+		super(name, brain, body, weight, size, vegan);
+		
+	}
+
+
+}

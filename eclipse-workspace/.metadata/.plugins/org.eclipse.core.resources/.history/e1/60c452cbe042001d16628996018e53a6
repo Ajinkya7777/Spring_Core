@@ -1,0 +1,125 @@
+package ClassesAndConstructors;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+//		==================SimpleCalculator==============
+//		SimpleCalculator numbers= new SimpleCalculator();
+//		numbers.setFirstNumber(1);
+//		numbers.setSecondNumber(0);
+//		System.out.println(numbers.getAdditionResult());
+//		System.out.println(numbers.getSubtractionResult());
+//		System.out.println(numbers.getMultiplicationResult());
+//		System.out.println(numbers.getDivisionResult());
+//		==================SimpleCalculator==============
+		
+		
+//		Person person = new Person();
+//		
+//		person.setFirstName("Swati");
+//		person.setLastName(" Barnwal");
+//		person.setAge(25);
+//		System.out.println(person.getFirstName());
+//		System.out.println(person.getLastName());
+//		System.out.println(person.getAge());
+//		System.out.println(person.isTeen());
+//		System.out.println(person.getFullName());
+		
+		//=================Person====================
+//		Person person = new Person();
+//		person.setFirstName("");   // firstName is set to empty string
+//		person.setLastName("");    // lastName is set to empty string
+//		person.setAge(10);
+//		System.out.println("fullName= " + person.getFullName());
+//		System.out.println("teen= " + person.isTeen());
+//		person.setFirstName("John");    // firstName is set to John
+//		person.setAge(18);
+//		System.out.println("fullName= " + person.getFullName());
+//		System.out.println("teen= " + person.isTeen());
+//		person.setLastName("Smith");    // lastName is set to Smith
+//		System.out.println("fullName= " + person.getFullName());
+//		System.out.println(person.getLastName());
+		//=================Person====================
+		
+		
+		//=======================BANK========================
+		//Bank bank = new Bank();//(1,50.0,"Ajinkya", "Ajinkya@gmail.com","7972927427",50.0,99.0);
+		
+//		bank.setAccountNo(1);
+//		bank.setBalance(1);
+//		bank.setName("a");
+//		bank.setEmail("@");
+//		bank.setMobileNo(1);
+//		System.out.println(bank.getAccountNo());
+//	    System.out.println(bank.getBalance());
+//		System.out.println(bank.getName());
+//		System.out.println(bank.getEmail());
+//		System.out.println(bank.getMobileNo());
+//		System.out.println(bank.deposit(50));
+//	    System.out.println(bank.withdrawl(51));
+//	    System.out.println(bank.deposit(50));
+			//=================BANK================
+		
+		//=================VipCuctomers================
+//		VipCustomers vip=new VipCustomers(2400,"Aju@gmail.com");//"Ajinkya",2400,"A@mail");
+//		vip.getName();
+//		vip.getCreditLimit();
+//		vip.getEmail();
+		//=================VipCuctomers================
+		
+		//============WallArea=========================
+		
+//		 Wall wall = new Wall(-5,-4);
+//		  System.out.println("area= " + wall.getArea());
+//		  
+//		  wall.setHeight(-1.5);
+//		  System.out.println("width= " + wall.getWidth());
+//		  System.out.println("height= " + wall.getHeight());
+//		  System.out.println("area= " + wall.getArea());
+		//============WallArea=========================
+		
+//		Point first = new Point(6, 5);
+//		Point second = new Point(3, 1);
+//		System.out.println("distance(0,0)= " + first.distance());
+//		System.out.println("distance(second)= " + first.distance(second));
+//		System.out.println("distance(2,2)= " + first.distance(2, 2));
+//		Point point = new Point();
+//		System.out.println("distance()= " + point.distance());
+			
+//		Carpet carpet = null;//new Carpet(0.0);////new Carpet(3.5);
+//		Floor floor = null;//new Floor(0, 0); ////new Floor(2.75, 4.0);
+//		Calculator calculator = new Calculator(floor, carpet);
+//		System.out.println("total= " + calculator.getTotalCost());
+//		carpet = new Carpet(1.5);
+//		floor = new Floor(5.4, 4.5);
+//		calculator = new Calculator(floor, carpet);
+//		System.out.println("total= " + calculator.getTotalCost());
+
+		
+		
+//		ComplexNumber one = new ComplexNumber(1.0, 1.0);
+//		ComplexNumber number = new ComplexNumber(2.5, -1.5);
+//		one.add(1,1);
+//		System.out.println("one.real= " + one.getReal());
+//		System.out.println("one.imaginary= " + one.getImaginary());
+//		one.subtract(number);
+//		System.out.println("one.real= " + one.getReal());
+//		System.out.println("one.imaginary= " + one.getImaginary());
+//		number.subtract(one);
+//		System.out.println("number.real= " + number.getReal());
+//		System.out.println("number.imaginary= " + number.getImaginary());
+		
+		//Animal deAnimal= new Animal("world", 1, 1, 20, 30, true); //Dog("tick",35,34, 2, 32, 1, 4);
+	
+	
+        Dog mike=new Dog("mike", 20,12,2, 32, 1, 4,true);
+        //mike.isVegan(false);
+        //mike.isVegan(true);
+        mike.isVegan();
+    
+        	//deAnimal.isVegan();
+         
+	}
+
+}

@@ -1,0 +1,39 @@
+package ClassesAndConstructors;
+
+public class Dog extends Animal {
+	private int eyes;
+	private int teeth;
+	private int tail;
+	private int legs;
+
+	public Dog(String name, int weight, int size) {
+		super(name, 1, 1, weight, size);
+	}
+
+	public int setEyes(int eyes) {
+		this.eyes = eyes;
+		return this.eyes;
+	}
+
+	public int setTeeth(int teeth) {
+		this.teeth = teeth;
+		return this.teeth;
+	}
+
+	public int setTail(int tail) {
+		this.tail = tail;
+		return this.tail;
+	}
+
+	public int setlegs(int legs) {
+		this.legs = legs;
+		return this.legs;
+	}
+
+	public void getEyes() {
+
+		System.out.println(this.setEyes(1));
+	}
+
+	
+}

@@ -1,0 +1,9 @@
+package ClassesAndConstructors;
+
+public class Cow {
+
+	public Cow() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
